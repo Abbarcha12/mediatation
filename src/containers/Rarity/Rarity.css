@@ -1,0 +1,20 @@
+.rarity_container {
+  color: #e8c16f;
+}
+
+.rarity_list li {
+  font-size: 20px;
+  line-height: 208.5%;
+  margin: 10px;
+}
+.rarity_heading h2 {
+  font-weight: 700;
+}
+@media screen and (max-width: 700px) {
+  .rarity_para {
+    margin-left: 12%;
+    margin-right: 12%;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

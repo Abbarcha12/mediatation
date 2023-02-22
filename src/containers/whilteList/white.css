@@ -1,0 +1,29 @@
+.whitelist_form input {
+  padding: 10px 30px;
+  border-radius: 20px;
+  outline: none;
+  background-color: transparent;
+  border: 1px solid #e8c16f;
+}
+
+.whitelist_form input,
+label {
+  color: #e8c16f;
+  font-weight: 700;
+  margin-top: 12px !important;
+}
+
+.form_btn button {
+  background-color: #e8c16f;
+  border: none;
+  padding: 6px 25px;
+  border-radius: 20px;
+  color: black !important;
+  font-weight: 700;
+}
+@media screen and (max-width: 768px) {
+  .whitelist_form input {
+    width: 100% !important;
+    margin-top: 15px;
+  }
+}

@@ -1,0 +1,48 @@
+.Home_Heading {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 46px;
+  line-height: 56px;
+  text-align: justify;
+  letter-spacing: 0.01em;
+  color: #e8c16f;
+  padding-top: 5rem;
+  max-width: 716px;
+}
+.Home_para {
+  padding-top: 30px;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  text-align: justify;
+  letter-spacing: 0.075em;
+  max-width: 716px;
+  color: #e8c16f;
+}
+.Hide {
+  display: none;
+}
+.Home_btn {
+  margin-top: 30px !important;
+  background: #e8c16f !important;
+  border-radius: 44px !important;
+  padding: 10px 28px !important;
+  font-weight: 700 !important;
+  color: #000000 !important;
+}
+@media screen and (max-width: 768px) {
+  .Home_Heading {
+    font-size: 26px;
+    line-height: 38px;
+
+    letter-spacing: 0em;
+  }
+  .Home_para {
+    font-size: 16px;
+    line-height: 20px;
+    text-align: justify;
+    letter-spacing: 0.03em;
+  }
+}

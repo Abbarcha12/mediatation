@@ -1,0 +1,40 @@
+.team_para {
+  margin-left: 12%;
+  margin-right: 12%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  letter-spacing: 0.05em;
+  color: #e8c16f;
+}
+.about_list li {
+  font-size: 20px;
+  line-height: 208.5%;
+  padding: 7px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  text-align: justify;
+  letter-spacing: 0.05em;
+}
+@media screen and (max-width: 700px) {
+  .about_heading h2 {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 438px) {
+  .about_para {
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 13px;
+    line-height: 20px;
+  }
+  .about_list li {
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0px;
+  }
+}

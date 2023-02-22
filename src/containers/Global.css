@@ -1,0 +1,72 @@
+.team_para {
+  margin-left: 12%;
+  margin-right: 12%;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 26px;
+  text-align: justify;
+  letter-spacing: 0.03em;
+  color: #e8c16f;
+  max-width: 90%;
+}
+
+.team_para ul li {
+  margin-top: 18px;
+}
+.Br {
+  display: none;
+}
+@media screen and (max-width: 992px) {
+  .team_para {
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 10px;
+    text-align: justify;
+    letter-spacing: 0.02em;
+    color: #e8c16f;
+    max-width: 90%;
+  }
+  .about_list ul li {
+    font-size: 18px;
+    margin: 4px !important;
+    line-height: 19px;
+  }
+
+  .rarity_container h2 {
+    font-size: 30px;
+    line-height: 34px;
+    letter-spacing: 1px;
+  }
+}
+@media screen and (max-width: 786px) {
+  .InputField {
+    width: 100% !important;
+  }
+  .Br {
+    display: block;
+  }
+  .team_para {
+    margin-left: 2%;
+    margin-right: 2%;
+    line-height: 23px;
+  }
+  .dash {
+    display: none;
+  }
+  .about_list ul li {
+    font-size: 16px;
+    margin: 4px !important;
+    line-height: 23px;
+  }
+  .rarity_container h2 {
+    font-size: 24px;
+    line-height: 26px;
+    letter-spacing: 1px;
+  }
+  .rarityHeading {
+    font-size: 21px !important;
+    line-height: 26px !important;
+    letter-spacing: 1px !important;
+  }
+}

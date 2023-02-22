@@ -1,0 +1,1 @@
+export { default as background__Img } from "../Assets/backGround.png"
