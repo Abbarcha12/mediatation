@@ -15,7 +15,7 @@ const Rarity = () => {
               </div>
               <div class='team_para'>
                 <h2 class='mt-5 rarityHeading'>
-                  ULTRA RARE <span className='dash'>- &nbsp;</span>
+                  ULTRA RARE <br/>
                   Chakras of the World
                 </h2>
                 <div class='about_list'>
