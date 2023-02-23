@@ -10,6 +10,9 @@
 .rarity_heading h2 {
   font-weight: 700;
 }
+.team_para h2 {
+  font-weight: 750;
+}
 @media screen and (max-width: 700px) {
   .rarity_para {
     margin-left: 12%;

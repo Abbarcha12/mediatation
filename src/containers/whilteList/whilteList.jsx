@@ -27,7 +27,7 @@ const WhilteList = () => {
                   <li>Click on the "Whitelist"  button.</li>
                   <li>
                     Fill out the form with your name, email address, and other
-                    required information.
+                    required info.
                   </li>
                   <li>
                     Wait for a confirmation email that your application has been

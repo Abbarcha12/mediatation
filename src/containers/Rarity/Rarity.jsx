@@ -10,7 +10,6 @@ const Rarity = () => {
               <div class='rarity_heading'>
                 <h2 class='text-center'>5,000 TOTAL</h2>
                 <h2 class='text-center mt-3'>ULTRA RARE: 56 </h2>
-                <h2 class='text-center mt-3'>ULTRA RARE: 56 </h2>
                 <h2 class='text-center mt-3'>COMMON: 3,850</h2>
               </div>
               <div class='team_para'>
@@ -74,7 +73,7 @@ const Rarity = () => {
               </div>
               <div class='team_para'>
                 <h2 class='mt-5'>
-                  COMMON <br /> beautiful locations
+                  COMMON <br /> Beautiful Locations
                 </h2>
                 <div class='about_list '>
                   <ul>
