@@ -2,11 +2,13 @@ import React, { useState } from 'react'
 import './Header.css'
 import { Link } from 'react-router-dom'
 import { RxDiscordLogo } from 'react-icons/rx'
-import { AiFillFacebook } from 'react-icons/ai'
+import { AiFillFacebook, AiFillLinkedin } from 'react-icons/ai'
 import { AiFillInstagram } from 'react-icons/ai'
 import { BsTwitter } from 'react-icons/bs'
-import { AiOutlineMenuFold } from 'react-icons/ai'
+import { AiOutlineMenuFold, AiFillYoutube } from 'react-icons/ai'
 import { motion } from 'framer-motion'
+import { FaTiktok } from 'react-icons/fa'
+import menu from '../Assets/logo.png'
 
 const variants = {
   open: { opacity: 0, x: 1 },
@@ -95,7 +97,17 @@ const Header = () => {
                   </div>
                   <div className='box'>
                     <Link className=' combo_Item_Class' to='#'>
-                      <RxDiscordLogo />
+                      <AiFillLinkedin />
+                    </Link>
+                  </div>
+                  <div className='box'>
+                    <Link className=' combo_Item_Class' to='#'>
+                      <FaTiktok />
+                    </Link>
+                  </div>
+                  <div className='box'>
+                    <Link className=' combo_Item_Class' to='#'>
+                      <AiFillYoutube />
                     </Link>
                   </div>
                 </div>
@@ -105,36 +117,50 @@ const Header = () => {
               <div className='mobileHeader'>
                 <div>
                   <div className='Icons-Div  '>
-                    <div className='box'>
-                      <Link className=' combo_Item_Class' to='#'>
-                        <RxDiscordLogo />
-                      </Link>
+                    <div className='smallScreen'>
+                      <div className='box'>
+                        <Link className=' combo_Item_Class' to='#'>
+                          <RxDiscordLogo />
+                        </Link>
+                      </div>
+                      <div className='box'>
+                        <Link className=' combo_Item_Class' to='#'>
+                          <AiFillFacebook />
+                        </Link>
+                      </div>
+                      <div className='box'>
+                        <Link className=' combo_Item_Class' to='#'>
+                          <BsTwitter />
+                        </Link>
+                      </div>
                     </div>
-                    <div className='box'>
-                      <Link className=' combo_Item_Class' to='#'>
-                        <AiFillFacebook />
-                      </Link>
-                    </div>
-                    <div className='box'>
-                      <Link className=' combo_Item_Class' to='#'>
-                        <BsTwitter />
-                      </Link>
-                    </div>
-                    <div className='box'>
-                      <Link className=' combo_Item_Class' to='#'>
-                        <AiFillInstagram />
-                      </Link>
-                    </div>
-                    <div className='box'>
-                      <Link className=' combo_Item_Class' to='#'>
-                        <RxDiscordLogo />
-                      </Link>
+                    <div className='smallScreen'>
+                      <div className='box'>
+                        <Link className=' combo_Item_Class' to='#'>
+                          <AiFillInstagram />
+                        </Link>
+                      </div>
+                      <div className='box'>
+                        <Link className=' combo_Item_Class' to='#'>
+                          <AiFillLinkedin />
+                        </Link>
+                      </div>
+                      <div className='box'>
+                        <Link className=' combo_Item_Class' to='#'>
+                          <FaTiktok />
+                        </Link>
+                      </div>
+                      <div className='box'>
+                        <Link className=' combo_Item_Class' to='#'>
+                          <AiFillYoutube />
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
-                <div>
+                <div className='logo'>
                   <Link className='Menu' onClick={(e) => setToggle(!Toggle)}>
-                    <AiOutlineMenuFold />
+                    <img src={menu} alt='logo' width='40px' />
                   </Link>
                 </div>
               </div>

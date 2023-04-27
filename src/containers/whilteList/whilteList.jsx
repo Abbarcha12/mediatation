@@ -1,10 +1,43 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './white.css'
+import axios from 'axios'
+import { Modal, Button } from 'react-bootstrap'
+import { AiOutlineClose } from 'react-icons/ai'
 const WhilteList = () => {
-  return (
-    <div className=''>
+  const [showModal, setShowModal] = useState(false)
 
-      <div class='container-fluid mb-5'>
+  const [userData, setUserData] = useState({
+    name: '',
+    email: '',
+    DOB: '',
+    Link: '',
+  })
+
+  const HandleSubmit = (e) => {
+    e.preventDefault()
+    axios
+      .post(
+        'https://wp.healmemeditations.io/wp-json/afb-routes/save-data',
+        userData
+      )
+      .then((response) => {
+        const res = JSON.parse(response.data)
+        if (res['code'] === 200) {
+          setShowModal(true)
+          setUserData({ name: '', email: '', DOB: '', Link: '' })
+        }
+      })
+  }
+  return (
+    <div className='WjilteList'>
+      <Modal
+        show={showModal}
+        onHide={() => setShowModal(false)}
+        className='Model'
+      >
+        <Modal.Body>Congratulations!</Modal.Body>
+      </Modal>
+      <div class='container-fluid '>
         <div class='row'>
           <div class='col-md-12 '>
             <div class='whitelist_container'>
@@ -24,7 +57,7 @@ const WhilteList = () => {
                   experience, follow these steps
                 </p>
                 <ul>
-                  <li>Click on the "Whitelist"  button.</li>
+                  <li>Click on the "Whitelist" button.</li>
                   <li>
                     Fill out the form with your name, email address, and other
                     required info.
@@ -50,11 +83,11 @@ const WhilteList = () => {
                 </ul>
               </div>
             </div>
-            <div className='container'>
+            <div className='container p-5'>
               <div className='row d-flex justify-content-center'>
                 <div className='col-md-9 col-sm-8 col-xs-6'>
                   <div class=' mt-5'>
-                    <from class='whitelist_form '>
+                    <form class='whitelist_form ' onSubmit={HandleSubmit}>
                       <div className='row '>
                         <div className='col-md-6'>
                           <label>Name</label> <br />
@@ -62,6 +95,10 @@ const WhilteList = () => {
                             class='mt-1'
                             type='text'
                             className='InputField'
+                            value={userData.name}
+                            onChange={(e) =>
+                              setUserData({ ...userData, name: e.target.value })
+                            }
                           />
                         </div>
                         <div className='col-md-6'>
@@ -71,6 +108,13 @@ const WhilteList = () => {
                             class='mt-1'
                             type='text'
                             className='InputField'
+                            value={userData.email}
+                            onChange={(e) =>
+                              setUserData({
+                                ...userData,
+                                email: e.target.value,
+                              })
+                            }
                           />
                         </div>
                       </div>
@@ -79,8 +123,12 @@ const WhilteList = () => {
                           <label>Date Of Brith</label> <br />
                           <input
                             class='mt-1'
-                            type='text'
+                            type='date'
                             className='InputField'
+                            value={userData.DOB}
+                            onChange={(e) =>
+                              setUserData({ ...userData, DOB: e.target.value })
+                            }
                           />
                         </div>
                         <div className='col-md-6'>
@@ -89,23 +137,29 @@ const WhilteList = () => {
                             class='mt-1'
                             type='text'
                             className='InputField'
+                            value={userData.Link}
+                            onChange={(e) =>
+                              setUserData({ ...userData, Link: e.target.value })
+                            }
                           />
                         </div>
                       </div>
-                    </from>
+                      <div className='container'>
+                        <div className='row'>
+                          <div className='col-md-12'>
+                            <div className='me-lg-5'>
+                              <div class='form_btn me-lg-5 text-center'>
+                                <button class='mt-5 me-lg-5' type='submit'>
+                                  Namaste
+                                </button>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
                   </div>
                 </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className='container'>
-        <div className='row'>
-          <div className='col-md-12'>
-            <div className='me-lg-5'>
-              <div class='form_btn me-lg-5 text-center'>
-                <button class='mt-5 me-lg-5'>Namaste</button>
               </div>
             </div>
           </div>

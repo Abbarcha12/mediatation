@@ -19,9 +19,7 @@ const Home = () => {
       <div className='container mainCC'>
         <div className='row d-flex justify-content-center'>
           <div className='col-md-11'>
-            <h1 className='Home_Heading'>
-              Meditation x Meta x Travel x Community x Purpose
-            </h1>
+            <h1 className='Home_Heading'>Meta Meditations</h1>
 
             <p className='Home_para'>
               Experience a new level of meditation with our NFT immersive

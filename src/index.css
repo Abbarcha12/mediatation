@@ -7,13 +7,13 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-@media screen and (max-width: 786px) {
+@media screen and (max-width: 576px) {
   .background__Img {
     background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 1)),
-      url('https://media.discordapp.net/attachments/990816819654852648/1075959965379989505/dezissavibe_this_image_in_1080_x_1090_format_for_cell_phone_0f1a7064-734c-4f8a-957d-f7947b506eec.png');
-
-    min-height: 100vh;
-    background-position: top;
+      url('./Assets/dezissavibe_this_image_in_1080_x_1090_format_for_cell_phone_0f1a7064-734c-4f8a-957d-f7947b506eec.png');
+    width: 100%;
+    height: auto;
+    background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
   }

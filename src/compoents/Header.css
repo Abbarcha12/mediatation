@@ -93,3 +93,15 @@
   align-items: center;
   padding: 11px 0px;
 }
+.logo {
+}
+@media screen and (max-width: 768px) {
+  .smallScreen {
+    display: flex !important;
+    flex-direction: row;
+  }
+  .Icons-Div {
+    display: flex !important;
+    flex-direction: column !important;
+  }
+}
