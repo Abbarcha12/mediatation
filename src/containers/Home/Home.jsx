@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import './Home.css'
+
 import { motion } from 'framer-motion'
+import BackgroundVideo from '../../compoents/BackgroundVideo'
 const show = {
   opacity: 1,
   display: 'block',
@@ -16,6 +18,7 @@ const Home = () => {
   const [isVisible, setIsVisible] = useState(false)
   return (
     <div>
+      <BackgroundVideo/>
       <div className='container mainCC'>
         <div className='row d-flex justify-content-center'>
           <div className='col-md-11'>

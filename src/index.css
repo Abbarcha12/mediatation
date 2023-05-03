@@ -1,20 +1,19 @@
 .background__Img {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 1)),
+  /* background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 1)),
     url('./Assets/backGround.jpg');
 
   min-height: 100vh;
   background-position: top;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  width: 100vw;
+  height: 150vh;
+  object-fit: cover;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
 }
-@media screen and (max-width: 576px) {
-  .background__Img {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 1)),
-      url('./Assets/dezissavibe_this_image_in_1080_x_1090_format_for_cell_phone_0f1a7064-734c-4f8a-957d-f7947b506eec.png');
-    width: 100%;
-    height: auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-  }
-}
+

@@ -6,7 +6,7 @@ import "./containers/Global.css"
 function App() {
   return (
     <>
-      <section className="background__Img">
+     
         <Header />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -19,7 +19,7 @@ function App() {
         </Routes>
 
 
-      </section>
+     
 
     </>
   );
