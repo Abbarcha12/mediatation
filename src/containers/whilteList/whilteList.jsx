@@ -3,6 +3,7 @@ import './white.css'
 import axios from 'axios'
 import { Modal, Button } from 'react-bootstrap'
 import { AiOutlineClose } from 'react-icons/ai'
+import BackgroundVideo from '../../compoents/BackgroundVideo'
 const WhilteList = () => {
   const [showModal, setShowModal] = useState(false)
 
@@ -37,6 +38,7 @@ const WhilteList = () => {
       >
         <Modal.Body>Congratulations!</Modal.Body>
       </Modal>
+      <BackgroundVideo/>
       <div class='container-fluid '>
         <div class='row'>
           <div class='col-md-12 '>

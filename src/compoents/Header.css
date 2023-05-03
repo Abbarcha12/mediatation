@@ -3,7 +3,7 @@
   font-size: 16px;
   line-height: 24px;
   text-decoration: none !important;
-  color: #e8c16f;
+  color: #000000;
   font-style: normal;
   padding: 0 10px;
 }
@@ -19,7 +19,7 @@
 }
 
 .Icons-Div {
-  background: #351e0f;
+  background: #000000;
   border-radius: 20px;
   display: flex;
   align-items: center;
@@ -31,7 +31,7 @@
 .box {
   width: 33px;
   height: 33px;
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   margin: 5px;
   border-radius: 50%;
   display: flex;
@@ -39,7 +39,7 @@
   justify-content: center;
 }
 .combo_Item_Class svg {
-  color: rgba(210, 82, 10, 1);
+  color: rgb(0, 0, 0);
   font-size: 20px !important;
 }
 .MobileMenu {

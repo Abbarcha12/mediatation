@@ -1,8 +1,10 @@
 import React from 'react'
 import './Rarity.css'
+import BackgroundVideo from '../../compoents/BackgroundVideo'
 const Rarity = () => {
   return (
     <div>
+      <BackgroundVideo/>
       <div class='container-fluid mt-5'>
         <div class='row'>
           <div class='col-md-12'>

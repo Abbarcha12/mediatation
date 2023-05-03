@@ -5,7 +5,7 @@
   line-height: 56px;
   text-align: justify;
   letter-spacing: 0.01em;
-  color: #e8c16f;
+  color: #000000;
   padding-top: 5rem;
   max-width: 716px;
 }
@@ -19,18 +19,18 @@
   text-align: justify;
   letter-spacing: 0.075em;
   max-width: 716px;
-  color: #e8c16f;
+  color: #0c0c0c;
 }
 .Hide {
   display: none;
 }
 .Home_btn {
   margin-top: 30px !important;
-  background: #e8c16f !important;
+  background: #000000 !important;
   border-radius: 44px !important;
   padding: 10px 28px !important;
   font-weight: 700 !important;
-  color: #000000 !important;
+  color: #ffffff !important;
 }
 @media screen and (max-width: 768px) {
   .Home_Heading {

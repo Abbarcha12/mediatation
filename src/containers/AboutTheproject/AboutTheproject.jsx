@@ -1,8 +1,11 @@
 import React from 'react'
 import './about.css'
+import BackgroundVideo from '../../compoents/BackgroundVideo'
 const AboutTheproject = () => {
   return (
-    <div class='container-fluid'>
+    <div>
+      <BackgroundVideo/>
+      <div class='container-fluid'>
       <div class='row'>
         <div class='col-md-12'>
           <div class='about_container'>
@@ -67,6 +70,7 @@ const AboutTheproject = () => {
           </div>
         </div>
       </div>
+    </div>
     </div>
   )
 }

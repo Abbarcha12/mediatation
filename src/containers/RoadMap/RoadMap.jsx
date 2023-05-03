@@ -1,8 +1,10 @@
 import React from 'react'
 import './RoadMap.css'
+import BackgroundVideo from '../../compoents/BackgroundVideo'
 const RoadMap = () => {
   return (
     <section class=''>
+      <BackgroundVideo/>
       <div className='container'>
         <div className='row'>
           <div className='col-md-12'>
@@ -19,7 +21,7 @@ const RoadMap = () => {
             <div class='card bg-transparent Roadmap_card p-1'>
               <div class='card-body roadmap_detail p-4'>
                 <div class='dashe-right'></div>
-                <h3 class='text-light'>Phase 1</h3>
+                <h3 class=''>Phase 1</h3>
                 <ul>
                   <li>NFT 10% sold- airdrop give away</li>
                 </ul>
@@ -30,7 +32,7 @@ const RoadMap = () => {
             <div class='card bg-transparent Roadmap_card p-1'>
               <div class='card-body roadmap_detail p-4'>
                 <div class='dashe-left'></div>
-                <h3 class='text-light'>Phase 2</h3>
+                <h3 class=''>Phase 2</h3>
                 <ul>
                   <li>
                     NFT 25% sold - launch NFT holders exclusive eco friendly
@@ -44,7 +46,7 @@ const RoadMap = () => {
             <div class='card bg-transparent Roadmap_card p-1'>
               <div class='card-body roadmap_detail p-4'>
                 <div class='dashe-right'></div>
-                <h3 class='text-light'>Phase 3</h3>
+                <h3 class=''>Phase 3</h3>
                 <ul>
                   <li>
                     NFT 50% sold - schedule community retreats in the chakras of
@@ -67,7 +69,7 @@ const RoadMap = () => {
             <div class='card bg-transparent Roadmap_card p-1'>
               <div class='card-body roadmap_detail p-4'>
                 <div class='dashe-left'></div>
-                <h3 class='text-light'>Phase 4</h3>
+                <h3 class=''>Phase 4</h3>
                 <ul>
                   <li>
                     NFT 75% sold - collab & build/acquire a members only
@@ -81,7 +83,7 @@ const RoadMap = () => {
             <div class='card bg-transparent Roadmap_card p-1'>
               <div class='card-body roadmap_detail p-4'>
                 <div class='dashe-right'></div>
-                <h3 class='text-light'>Phase 5</h3>
+                <h3 class=''>Phase 5</h3>
                 <ul>
                   <li>
                     NFT 100% sold - create an immersive digital experience for

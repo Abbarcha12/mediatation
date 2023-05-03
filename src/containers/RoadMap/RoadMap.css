@@ -4,12 +4,12 @@
   font-size: 36px;
   line-height: 44px;
   letter-spacing: 0.035em;
-  color: #ffd478;
+  color: #000000;
 }
 .roadmap_head-underline {
   width: 100%;
   max-width: 160px;
-  border-bottom: 2px solid #ffff;
+  border-bottom: 2px solid #000000;
 }
 .main-timeline {
   position: relative;
@@ -18,14 +18,14 @@
   content: '';
   position: absolute;
   width: 2px;
-  background-color: #ffffff;
+  background-color: #000000;
   top: 0;
   bottom: calc(20% - 10px);
   left: 50%;
   margin-left: -3px;
 }
 .Roadmap_card {
-  border: 2px dashed #ffffff !important;
+  border: 2px dashed #000000 !important;
   border-radius: 10px;
 }
 .timeline {
@@ -82,8 +82,8 @@
   top: 18px;
   z-index: 1;
   right: 30px;
-  border: medium solid white;
-  background: #ffffff;
+  border: medium solid rgb(0, 0, 0);
+  background: #000000;
   border-radius: 50%;
   height: 17px;
   width: 17px;
@@ -94,8 +94,8 @@
   top: 18px;
   z-index: 1;
   left: 30px;
-  border: medium solid white;
-  background: #ffffff;
+  border: medium solid rgb(0, 0, 0);
+  background: #000000;
   border-radius: 50%;
   height: 17px;
   width: 17px;
@@ -108,14 +108,14 @@
 }
 .dashe-right {
   width: calc(23% - 10px);
-  border-top: 1px solid white;
+  border-top: 1px solid rgb(0, 0, 0);
   position: absolute;
   top: -5px;
   left: calc(-22% - 10px);
 }
 .dashe-left {
   width: calc(23% - 10px);
-  border-top: 1px solid white;
+  border-top: 1px solid rgb(0, 0, 0);
   position: absolute;
   top: -5px;
   right: calc(-22% - 10px);
@@ -132,7 +132,7 @@ ol {
   font-weight: 700;
   font-size: 16px;
   line-height: 27px;
-  color: rgba(232, 193, 111, 0.8);
+  /* color: rgba(232, 193, 111, 0.8); */
 }
 @media (min-width: 599px) and (max-width: 767px) {
   .main-timeline::after {

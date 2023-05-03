@@ -1,9 +1,10 @@
 import React from 'react'
 import './Team.css'
+import BackgroundVideo from '../../compoents/BackgroundVideo'
 const Team = () => {
   return (
     <div>
-      {' '}
+      <BackgroundVideo/>
       <div class='container-fluid'>
         <div class='row'>
           <div class='col-md-12'>
