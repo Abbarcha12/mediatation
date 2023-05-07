@@ -9,7 +9,7 @@ const BackgroundVideo = () => {
       if (videoRef.current) {
         videoRef.current.play();
       }
-    }, 2000);
+    }, 1000);
 
     return () => {
       clearTimeout(timeoutId);
