@@ -76,37 +76,37 @@ const Header = () => {
                 </div>
                 <div className='Icons-Div  '>
                   <div className='box'>
-                    <Link className=' combo_Item_Class' to='#'>
+                    <Link className=' combo_Item_Class' to='https://www.reddit.com/user/hmmeditations'>
                       <RxDiscordLogo />
                     </Link>
                   </div>
                   <div className='box'>
-                    <Link className=' combo_Item_Class' to='#'>
+                    <Link className=' combo_Item_Class' to='https://www.facebook.com/hmmeditations/'>
                       <AiFillFacebook />
                     </Link>
                   </div>
                   <div className='box'>
-                    <Link className=' combo_Item_Class' to='#'>
+                    <Link className=' combo_Item_Class' to='https://twitter.com/hmmeditations'>
                       <BsTwitter />
                     </Link>
                   </div>
                   <div className='box'>
-                    <Link className=' combo_Item_Class' to='#'>
+                    <Link className=' combo_Item_Class' to='https://www.instagram.com/healmemeditations/'>
                       <AiFillInstagram />
                     </Link>
                   </div>
                   <div className='box'>
-                    <Link className=' combo_Item_Class' to='#'>
+                    <Link className=' combo_Item_Class' to='https://www.linkedin.com/company/90620372/admin/'>
                       <AiFillLinkedin />
                     </Link>
                   </div>
                   <div className='box'>
-                    <Link className=' combo_Item_Class' to='#'>
+                    <Link className=' combo_Item_Class' to='https://www.tiktok.com/@hmmeditations'>
                       <FaTiktok />
                     </Link>
                   </div>
                   <div className='box'>
-                    <Link className=' combo_Item_Class' to='#'>
+                    <Link className=' combo_Item_Class' to='https://www.youtube.com/@hmmeditations'>
                       <AiFillYoutube />
                     </Link>
                   </div>
@@ -119,39 +119,39 @@ const Header = () => {
                   <div className='Icons-Div  '>
                     <div className='smallScreen'>
                       <div className='box'>
-                        <Link className=' combo_Item_Class' to='#'>
+                        <Link className=' combo_Item_Class' to='https://www.reddit.com/user/hmmeditations'>
                           <RxDiscordLogo />
                         </Link>
                       </div>
                       <div className='box'>
-                        <Link className=' combo_Item_Class' to='#'>
+                        <Link className=' combo_Item_Class' to='https://www.facebook.com/hmmeditations/'>
                           <AiFillFacebook />
                         </Link>
                       </div>
                       <div className='box'>
-                        <Link className=' combo_Item_Class' to='#'>
+                        <Link className=' combo_Item_Class' to='https://twitter.com/hmmeditations'>
                           <BsTwitter />
                         </Link>
                       </div>
                     </div>
                     <div className='smallScreen'>
                       <div className='box'>
-                        <Link className=' combo_Item_Class' to='#'>
+                        <Link className=' combo_Item_Class' to='https://www.instagram.com/healmemeditations/'>
                           <AiFillInstagram />
                         </Link>
                       </div>
                       <div className='box'>
-                        <Link className=' combo_Item_Class' to='#'>
+                        <Link className=' combo_Item_Class' to='https://www.linkedin.com/company/90620372/admin/'>
                           <AiFillLinkedin />
                         </Link>
                       </div>
                       <div className='box'>
-                        <Link className=' combo_Item_Class' to='#'>
+                        <Link className=' combo_Item_Class' to='https://www.tiktok.com/@hmmeditations'>
                           <FaTiktok />
                         </Link>
                       </div>
                       <div className='box'>
-                        <Link className=' combo_Item_Class' to='#'>
+                        <Link className=' combo_Item_Class' to='https://www.youtube.com/@hmmeditations'>
                           <AiFillYoutube />
                         </Link>
                       </div>
