@@ -17,3 +17,15 @@
   z-index: -1;
 }
 
+@media (max-width: 576px) {
+  .background__Img {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 1)),
+      url('./Assets/hh.jpg');
+  
+    min-height: 100vh;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+  }
+}
